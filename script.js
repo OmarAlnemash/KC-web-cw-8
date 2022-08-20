@@ -20,6 +20,7 @@ function search() {
 
   // طبّق الخطوة 7 أسفل هذا الكومنت
   let filteredGrades = grades.filter((x) => x == inputValue);
+  console.log(filteredGrades);
 }
 
 // طبّق الخطوة 8 و 9 أسفل هذا الكومنت
